@@ -1,0 +1,6 @@
+int speed =10;
+
+// После того как наша змея съест еду:
+
+if (x_pos.size()%2==0 && speed>=2)
+    speed=speed-1;
