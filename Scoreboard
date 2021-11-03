@@ -1,0 +1,6 @@
+1. Scoreboard Position
+
+textAlign(LEFT); // Alignment
+textSize(25); // Pos
+fill(255);
+text("Счет:" + x_pos.size(),0,20);
