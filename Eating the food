@@ -1,0 +1,18 @@
+1. Creating the Food
+
+int f_x_pos=15;
+int f_y_pox=15;
+boolean gamestatus =false;
+
+if (!gamestatus)
+        {
+            fill(255)
+        rect (f_x_pos*block,f_y_pos*block,block,block);
+        }
+
+2. Snake eating food and creating random pos for next
+
+if (x_pos.get(0)==f_x_pos && y_pos.get(0)==f_y_pos){
+    f_x_pos=(int)random(0,width);
+    f_y_pos(int)random(0,height);
+        }
